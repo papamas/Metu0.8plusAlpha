@@ -1,0 +1,302 @@
+.error_message, .error{
+    color:red;
+    font-weight:bold;
+}
+
+.done{
+    color: #6600CC;
+    font-weight:bold;
+    padding-left:20px;
+    margin-bottom:5px;
+    background-image: url("../images/icons/done.png");
+    background-repeat: no-repeat;
+}
+.notification{
+    background-color:#FFFBE2;
+    border:1px solid #000;
+    padding: 10px;
+}
+.designBox {
+    background-color: #FFFFFF;
+    background-image: url("../images/head_cutting.gif");
+    background-repeat: repeat-x;
+    margin: 0 auto 10px auto;
+    position: relative;
+}
+
+.designBoxHeader {
+    border-top: 1px solid #CCCCCC;
+    color: #666666;
+    font-size: 12px;
+    font-weight: bold;
+    height: 17px;
+    padding: 3px 0 0 8px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.designBoxContent {
+    font-size: 13px;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+}
+
+.column_1{
+    float:left;
+    margin-left:-4px;
+}
+
+.column_2{
+    float:right;
+    margin-right:5px;
+}
+
+.mainDiv{
+ 
+}
+
+.designBox p{
+    width:100%;
+}
+
+.menu_topest{
+    float:right;
+    margin:12px 10px;
+}
+
+.menu_topest img{
+    float:right;
+}
+.menu_topest a{
+    text-decoration:underline;
+    color:#E9F4FC;
+    font-size: smaller;
+    float:left;
+}
+
+
+
+/* * * * Buttons style * * * */
+
+/* Universal (resizable) button */
+.button_wrapper
+{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    background-position: left top;
+}
+
+.button_wrapper_close
+{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-right:-4px;
+    font-size: 1px;
+    width: 4px;
+    overflow: hidden;
+    background-position: right top;
+}
+
+.button_wrapper,
+.button_wrapper_close
+{
+    background-image: url(../../templates/tmpl_mtwitter/images/icons/button_bg.png);
+    background-repeat: no-repeat;
+}
+
+.button_wrapper,
+.button_wrapper input,
+.button_wrapper_close
+{
+    height: 25px;
+}
+
+.button_wrapper input.form_input_button,
+.button_wrapper input.form_input_submit,
+.button_wrapper input.form_input_reset
+{
+    background-image: none;
+    width: auto;
+    /*background-color: transparent;*/
+}
+
+.button_wrapper:hover
+{
+    background-position: 0px -50px;
+}
+
+.button_wrapper:hover .button_wrapper_close
+{
+    background-position: right -50px;
+}
+
+.button_wrapper:active
+{
+    background-position: 0px -100px;
+}
+
+.button_wrapper:active .button_wrapper_close
+{
+    background-position: right -100px;
+}
+
+/* [END] Universal (resizable) button */
+
+input[type=submit],
+input[type=button],
+input[type=reset],
+input.submit,
+input.button,
+input.reset
+{
+    border: none;
+    padding: 2px 6px 20px 6px;
+    position:relative;
+    width: 70px;
+    height: 25px;
+    
+    overflow: visible; /* IE paddings fix */
+    
+    background: transparent url(../images/icons/button1_bg.png) no-repeat scroll left top;
+    /*
+        Note: to create button with other width, create button2_bg.
+    */
+}
+
+input[type=submit]:hover,
+input[type=button]:hover,
+input[type=reset]:hover,
+input.submit:hover,
+input.button:hover,
+input.reset:hover
+{
+    background-position: 0px -50px;
+}
+
+input[type=submit]:active,
+input[type=button]:active,
+input[type=reset]:active,
+input.submit:active,
+input.button:active,
+input.reset:active
+{
+    background-position: 0px -100px;
+}
+
+/* * * * [end] Buttons style * * * */
+
+/****** PROMO ****/
+.promo{
+    color:#333333;
+    width:100%;
+    height:300px;
+    padding:10px;
+}
+.promo_title{
+    font-size:18px;
+    font-weight:bold;
+}
+.promo_description{
+    font-size:14px;
+    margin-top:15px;
+    position:relative;
+}
+.promo a{
+    color: #3333CC;
+}
+
+.promo .content{
+
+}
+
+#promo_container{
+
+}
+/***** END PROMO ****/
+
+/*******THUMB*********/
+.thumb{
+    width:100%;
+    position:relative;
+    float:left;
+    text-align:center;
+    clear:both;
+    border-bottom:1px solid #DDD;
+}
+.pic_thumb{
+    margin:10px;
+    float:left;
+    position:relative;
+}
+.pic_thumb img{
+    width:48px;
+}
+.thumb .status{
+    z-index:5;
+    position:absolute;
+    margin-left:-150px;
+    font-size: medium;
+}
+.thumb input{
+    float:left;
+    position:relative;
+    margin:10px 0;
+}
+/*******end thumb*****/
+
+/*******start status****/
+.thumb_with_status{
+    height:300px;
+}
+/*******end status*****/
+
+
+/******start upload profilepic*****/
+.change_button{
+    width:110px;
+    z-index:10;
+    text-align:center;
+    position: absolute;
+}
+
+.form_profile_pic{
+    z-index:10;
+    position: absolute;
+    margin-left:120px;
+    padding:10px;
+}
+/******end upload profilepic*****/
+
+
+.box_shadowed{
+    background-color: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    border-radius: 2px 2px 2px 2px;
+    box-shadow: 3px 3px 15px #BBBBBB;
+    color: #444444;
+    font-weight: bold;
+    padding: 5px 5px;
+    position:absolute;
+    z-index:15;
+    margin-top:20px;
+    display:none;
+}
+
+.box_shadowed_close{
+    float:right;
+    position: relative;
+    margin-right:0;
+    margin-bottom:0;
+}
+
+/*
+ footer
+*/
+.footer_note{
+    background-color:#F7BE0F;
+    color:#000;
+    padding:10px;
+}

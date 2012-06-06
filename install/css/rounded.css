@@ -1,0 +1,44 @@
+.rounded_table_white{
+	background-image:url(images/rounded_table_white_1.png);
+	background-repeat:no-repeat;
+}
+.tl_white{
+	background-position:0 0;
+	width:19px;
+	height:15px;
+}
+.tm_white{
+	background-position:0 -85px;
+	background-repeat: repeat-x;
+}
+.tr_white{
+	background-position:0 -25px;
+	width:19px;
+	height:15px;
+}
+.l_white{
+	background-image:url(images/rounded_table_white_2.png);
+	background-position:0 0;
+	background-repeat: repeat-y;
+	width:19px;
+}
+.r_white{
+	background-image:url(images/rounded_table_white_2.png);
+	background-position:-25px 0px;
+	background-repeat: repeat-y;
+	width:19px;
+}
+.bl_white{
+	background-position:0 -45px;
+	width:19px;
+	height:20px;
+}
+.bm_white{
+	background-position:0 -105px;
+	background-repeat: repeat-x;
+}
+.br_white{
+	background-position:0 -65px;
+	width:19px;
+	height:20px;
+}

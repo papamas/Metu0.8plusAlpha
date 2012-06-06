@@ -1,0 +1,1 @@
+<?=img(base_url().'templates/tmpl_mtwitter/images/icons/error_alert.png')?><b><?=$error_message?></b>

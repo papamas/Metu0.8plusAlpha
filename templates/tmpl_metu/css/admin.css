@@ -1,0 +1,23 @@
+.designBoxContent{
+    min-height:100px;
+}
+
+.designBox{
+    
+}
+
+.mainDiv{
+    /*background-image:url("../images/icons/key-icon.png");
+    background-repeat: no-repeat;*/
+    background-position:right top;  
+}
+
+.designBox_2{
+    float:left;
+    position:relative;
+    width: 330px;
+    font-size: small;
+    background-color: #EEE;
+    margin:5px;
+    border-radius:8px;
+}

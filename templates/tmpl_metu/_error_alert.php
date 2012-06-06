@@ -1,0 +1,1 @@
+<?=img(base_url().'templates/tmpl_metu/images/icons/error_alert.png')?><b><?=$error_message?></b>
